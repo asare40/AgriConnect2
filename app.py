@@ -13,7 +13,31 @@ from folium.plugins import Draw
 from shapely.geometry import shape, Point
 
 # --- Config ---
-st.set_page_config(page_title="AgriConnect Dashboard", layout="wide")
+st.set_page_config(page_title="AgriConnect Dashboard", layout="wide")  # KEEP THIS AS THE VERY FIRST STREAMLIT COMMAND
+
+# --- Custom Theme & UI Styles (Optional) ---
+st.markdown(
+    """
+    <style>
+    .block-container { padding-top: 1.5rem; padding-bottom: 1rem; }
+    .metric-card {
+        background: white;
+        border-radius: 12px;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        margin-bottom: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+        text-align: center;
+    }
+    .sidebar-content {
+        background: linear-gradient(135deg, #c8e6c9 0%, #e3f2fd 100%);
+        padding: 1rem;
+        border-radius: 16px;
+        margin-bottom: 1rem;
+    }
+    </style>
+    """, unsafe_allow_html=True
+)
+
 DB_PATH = "agriconnect.db"
 
 # --- Utility Functions ---
@@ -37,7 +61,7 @@ def insight_card(title, insight_text, color="#e3f2fd"):
 
 # --- Sidebar Navigation ---
 with st.sidebar:
-    st.title("🌾 AgriConnect")
+    st.markdown('<div class="sidebar-content"><h2>🌾 AgriConnect</h2></div>', unsafe_allow_html=True)
     nav_opt = st.radio("Navigation", [
         "Analytics Dashboard", 
         "Geospatial Analytics", 
@@ -70,9 +94,9 @@ if nav_opt == "Analytics Dashboard":
 
     st.markdown("## 📊 Credit & PHL Analytics Overview")
     c1, c2, c3 = st.columns(3)
-    c1.metric("Total Farmers", len(filtered_df))
-    c2.metric("Avg Credit Score", f"{filtered_df['predicted_credit_score'].mean():.2f}")
-    c3.metric("Avg PHL Risk", f"{filtered_df['phl_risk_score'].mean():.2f}")
+    c1.markdown(f"<div class='metric-card'><h2>{len(filtered_df):,}</h2><div>Total Farmers</div></div>", unsafe_allow_html=True)
+    c2.markdown(f"<div class='metric-card'><h2>{filtered_df['predicted_credit_score'].mean():.2f}</h2><div>Avg Credit Score</div></div>", unsafe_allow_html=True)
+    c3.markdown(f"<div class='metric-card'><h2>{filtered_df['phl_risk_score'].mean():.2f}</h2><div>Avg PHL Risk</div></div>", unsafe_allow_html=True)
 
     tabnames = [
         "Overview Map", "Analytics", "Profiles", "Table",
