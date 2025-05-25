@@ -1,0 +1,6 @@
+farmer_id,phl_risk_score,avg_annual_phl_loss,interventions_adopted
+YF011,0.8,0.15,2
+YF012,0.6,0.10,1
+YF013,0.2,0.02,3
+YF014,0.4,0.05,1
+YF015,0.9,0.20,0

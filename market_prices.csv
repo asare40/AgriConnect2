@@ -1,0 +1,25 @@
+crop_type,market_name,region,week_number,price_naira_per_kg,available_volume_tons,demand_strength
+Tomatoes,Mile 12,Lagos,1,280,35,High
+Tomatoes,Mile 12,Lagos,2,320,28,High
+Tomatoes,Mile 12,Lagos,3,420,15,High
+Tomatoes,Mile 12,Lagos,4,520,8,High
+Tomatoes,Yankaba,Kano,1,180,120,Medium
+Tomatoes,Yankaba,Kano,2,150,95,Medium
+Tomatoes,Yankaba,Kano,3,210,65,Medium
+Tomatoes,Yankaba,Kano,4,280,40,Medium
+Yam,Bodija,Oyo,1,300,85,High
+Yam,Bodija,Oyo,2,310,80,High
+Yam,Bodija,Oyo,3,305,82,High
+Yam,Bodija,Oyo,4,315,75,High
+Yam,Mile 12,Lagos,1,420,40,High
+Yam,Mile 12,Lagos,2,430,38,High
+Yam,Mile 12,Lagos,3,425,39,High
+Yam,Mile 12,Lagos,4,440,35,High
+Cassava,Wuse,Abuja,1,110,65,Medium
+Cassava,Wuse,Abuja,2,115,60,Medium
+Cassava,Wuse,Abuja,3,120,55,Medium
+Cassava,Wuse,Abuja,4,125,50,Medium
+Maize,Dawanau,Kano,1,220,150,High
+Maize,Dawanau,Kano,2,215,160,High
+Maize,Dawanau,Kano,3,225,140,High
+Maize,Dawanau,Kano,4,230,135,High

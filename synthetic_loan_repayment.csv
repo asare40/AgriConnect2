@@ -1,0 +1,6 @@
+farmer_id,age,education,farm_size,crop_type,region,tech_literacy,financial_access,prev_loan,repayment_status
+YF011,24,Secondary,1.2,Tomatoes,Kano,High,Some,0,1
+YF012,27,Primary,2.5,Yam,Oyo,Medium,None,1,0
+YF013,22,Tertiary,0.7,Rice,Benue,High,Full,1,1
+YF014,30,Secondary,3.0,Maize,Kaduna,Low,Limited,0,1
+YF015,26,Primary,1.8,Cassava,Plateau,Medium,None,0,0

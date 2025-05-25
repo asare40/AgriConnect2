@@ -1,0 +1,21 @@
+farmer_id,region,crop_type,credit_score,improvement_advice
+YF001,Kano,Maize,81.0,Keep up the good work!
+YF002,Oyo,Rice,80.0,Keep up the good work!
+YF003,Benue,Tomatoes,11.0,"Increase your crop yield (e.g., use improved seeds or practices). Reduce post-harvest losses (improve storage, transport). Adopt mobile money or join a cooperative for better financial access. Use a smartphone for better access to markets and information."
+YF004,Kaduna,Cassava,81.0,Keep up the good work!
+YF005,Plateau,Yam,75.0,Keep up the good work!
+YF006,Kano,Rice,85.0,Keep up the good work!
+YF007,Oyo,Maize,12.0,Adopt mobile money or join a cooperative for better financial access. Use a smartphone for better access to markets and information.
+YF008,Benue,Yam,22.0,"Increase your crop yield (e.g., use improved seeds or practices). Use a smartphone for better access to markets and information."
+YF009,Kaduna,Tomatoes,91.0,Keep up the good work!
+YF010,Plateau,Cassava,10.0,Adopt mobile money or join a cooperative for better financial access. Use a smartphone for better access to markets and information.
+YF011,Kano,Tomatoes,89.0,Keep up the good work!
+YF012,Oyo,Cassava,13.0,Adopt mobile money or join a cooperative for better financial access. Use a smartphone for better access to markets and information.
+YF013,Benue,Maize,91.0,Keep up the good work!
+YF014,Kaduna,Rice,95.0,Keep up the good work!
+YF015,Plateau,Tomatoes,24.0,"Increase your crop yield (e.g., use improved seeds or practices). Reduce post-harvest losses (improve storage, transport). Adopt mobile money or join a cooperative for better financial access. Use a smartphone for better access to markets and information."
+YF016,Kano,Yam,11.0,"Increase your crop yield (e.g., use improved seeds or practices). Adopt mobile money or join a cooperative for better financial access. Use a smartphone for better access to markets and information."
+YF017,Oyo,Tomatoes,91.0,Keep up the good work!
+YF018,Benue,Rice,73.0,Keep up the good work!
+YF019,Kaduna,Maize,24.0,Adopt mobile money or join a cooperative for better financial access.
+YF020,Plateau,Rice,68.0,Keep up the good work!

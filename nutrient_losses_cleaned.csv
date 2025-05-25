@@ -1,0 +1,25 @@
+nutrient,crop_type,nutrient_loss
+Energy (kcal),Maize,3514637223.9179573
+Energy (kcal),Rice,4234529504.821485
+Energy (kcal),Sorghum,5590734839.7966385
+Energy (kcal),Millet,7752322995.776308
+Protein (g),Maize,408389.3084068332
+Protein (g),Rice,222999.15733959584
+Protein (g),Sorghum,179231.19644961815
+Protein (g),Millet,209079.9683996953
+Fat (g),Maize,89277.4155503539
+Fat (g),Rice,68117.73626208746
+Fat (g),Sorghum,95283.21529822284
+Fat (g),Millet,149401.14023911871
+Carbohydrate (g),Maize,1237238.34488852
+Carbohydrate (g),Rice,1199684.91602014
+Carbohydrate (g),Sorghum,1200660.918562159
+Carbohydrate (g),Millet,852207.6783148369
+Fiber (g),Maize,54482.70440049121
+Fiber (g),Rice,96649.03033587566
+Fiber (g),Sorghum,72486.45839672614
+Fiber (g),Millet,48539.84386132272
+Vitamin A (μg),Maize,31325.07213642924
+Vitamin A (μg),Rice,12346.633037608746
+Vitamin A (μg),Sorghum,11714.397083342032
+Vitamin A (μg),Millet,45950.603274740075

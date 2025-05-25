@@ -1,0 +1,16 @@
+crop_type,stage,loss_percentage
+Maize,Harvesting,6.42
+Maize,Drying,4.0
+Maize,Storage,1.32
+Maize,Transportation,2.37
+Maize,Processing,4.71
+Rice,Harvesting,5.12
+Rice,Drying,3.8
+Rice,Storage,2.11
+Rice,Transportation,1.98
+Rice,Processing,3.45
+Sorghum,Harvesting,4.89
+Sorghum,Drying,2.76
+Sorghum,Storage,3.21
+Sorghum,Transportation,1.55
+Sorghum,Processing,2.98
